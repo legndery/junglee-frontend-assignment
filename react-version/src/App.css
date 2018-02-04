@@ -6,3 +6,8 @@ body {
   font-family: 'Gotham Rounded Book';
 }
 
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}

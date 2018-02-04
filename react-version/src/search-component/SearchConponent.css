@@ -67,7 +67,9 @@
     height: 35px;
     width: 150px
 }
-
+.ReactModal__Content .button:disabled {
+  background: #e1e1e1
+}
 .ReactModal__Content .crossBtn {
     position: absolute;
     right: 8px;
