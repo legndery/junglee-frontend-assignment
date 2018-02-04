@@ -1,9 +1,8 @@
 @font-face {
   font-family: 'Gotham Rounded Book';
-  font-style: normal;
-  font-weight: 400;
-  src: url('assets/fonts/Gotham-Rounded-Book.ttf') format('truetype'), /* Safari, Android, iOS */
+  src: url('assets/fonts/Gotham-Rounded-Book.ttf')  format('truetype')
     }
 body {
   font-family: 'Gotham Rounded Book';
 }
+
