@@ -9,4 +9,4 @@ Additional Dependancy:
 
 Screenshot 1:
 
-![Alt text](/screenie1.png?raw=true)
+![Screenshot 1](./screenie1.png?raw=true "The Landing Page")
