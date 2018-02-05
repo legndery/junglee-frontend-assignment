@@ -1,4 +1,4 @@
-##React Version
+## React Version
 
 create-react-app has been used to bootstrap the project.
 

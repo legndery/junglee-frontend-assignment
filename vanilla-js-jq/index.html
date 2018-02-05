@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <title>Junglee Frontend Application</title>
+</head>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="app">
+
+    <div class='search-component'>
+      <div class='container'>
+        <img src='./assets/arrow.png' class='arrow-img' />
+        <p class='title'>Find your artist below</p>
+        <button class='button'>Search artist</button>
+      </div>
+    </div>
+    <div id="dialog" style="">
+      <div class="overlay">
+        <div class="content">
+          <span class='crossBtn'>x</span>
+          <p class='title'>Enter Search Criteria</p>
+          <table><tbody>
+              <tr>
+                <td>
+                  <label htmlFor='artistName'>Artist Name</label>
+                </td>
+                <td>
+                  <input type='text' id='artistName' name='artistName'/>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label htmlFor='limit'>No. of Tracks</label>
+                </td>
+                <td>
+                  <input type='number' id='limit' name='limit' />
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <button class='button'>Search</button>
+                </td>
+              </tr>
+            </tbody></table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./build/build.js"></script>
+</body>
+
+</html>
