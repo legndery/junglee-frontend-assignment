@@ -21,7 +21,7 @@ class TrackList extends Component {
         return p;
     }
     componentWillMount = () => {
-        const url = 'http://itunes.apple.com/search';
+        const url = 'https://itunes.apple.com/search';
         axios.get(url, {
             params: this.state.params
         })
